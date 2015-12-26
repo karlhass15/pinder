@@ -9,8 +9,6 @@ module.exports = function(grunt){
                 src: 'client/scripts/app.js',
                 dest: 'server/public/assets/scripts/app.min.js'
             }
-
-
         },
         copy: {
             //angular: {

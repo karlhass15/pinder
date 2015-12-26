@@ -121,3 +121,11 @@ img.logo {
 .share:hover {
     box-shadow: 4px 4px 9px #959599;
 }
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
