@@ -11,19 +11,7 @@ module.exports = function(grunt){
             }
         },
         copy: {
-            //angular: {
-            //    expand: true,
-            //    cwd: 'node_modules',
-            //    src: [
-            //        "angular/angular.min.js",
-            //        "angular/angular.min.js.map",
-            //        "angular-route/angular-route.min.js",
-            //        "angular-route/angular-route.min.js.map",
-            //        "angular-aria/angular-aria.min.js",
-            //        "angular-aria/angular-aria.min.js.map"
-            //    ],
-            //    "dest": "server/public/vendors/"
-            //},
+
             bootstrap: {
                 expand: true,
                 cwd: 'node_modules/bootstrap/dist/css',
@@ -34,21 +22,13 @@ module.exports = function(grunt){
             },
             html: {
                 expand: true,
-                cwd: "client",
-                src: "views/index.html",
-                dest: "server/public/assets/"
+                cwd: 'client',
+                src: [
+                    "views/index.html"
+                ],
+                "dest": "server/public/assets/"
             },
 
-            htmlRoutes:{
-                expand: true,
-                cwd: "client/views/routes/",
-                src: [
-                    //"code.html",
-                    //"home.html",
-                    //"projects.html"
-                ],
-                dest: "server/public/assets/views/routes/"
-            },
             htmlTemplates: {
                 expand: true,
                 cwd: "client/views/templates",
