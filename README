@@ -1,0 +1,20 @@
+Hello and welcome to PINDER.  Yep Pinterest and DIY meet Tinder with like and dislike swiping
+ - Responsive and Mobile, built almost entirely on
+the MEAN full stack, but went with jQuery instead
+
+
+Tech:
+HTML
+CSS
+NodeMailer
+MongoDB
+Express
+jQuery
+Node
+jQuery mobile
+Bootstrap
+@media
+
+
+Future goals are to save the liked photo actions to display below.
+
