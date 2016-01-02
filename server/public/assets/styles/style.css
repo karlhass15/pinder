@@ -12,7 +12,7 @@
     margin-top: 5px;
     margin-left: -15px;
 }
-
+/*Raps the whole site*/
 #container {
     max-width: 70%;
     margin: auto;
@@ -28,7 +28,7 @@
     user-select: none;
 }
 
-/*Class for everyphoto as they are all stacked on top of each other*/
+/*white background*/
 .buddy {
     display: none;
     position: absolute;
@@ -43,12 +43,13 @@
     margin: auto;
     cursor: hand;
     box-shadow:  2px 2px 5px #959599;
-
 }
+
 .buddy:hover {
     box-shadow:  4px 4px 9px #959599;
 
 }
+/*the flight of the previous picture*/
 .rotate-left {
     transform: rotate(30deg) scale(0.8);
     transition: 1s;
@@ -63,6 +64,7 @@
     margin-left: -170px;
     cursor: w-resize;
 }
+/*the actual picture*/
 .avatar {
     background: #222;
     width: 375px;
@@ -128,6 +130,7 @@
 .pinder.btn {
     width: 150px;
     margin-left: 100px;
+    margin-top: 10px;
     color: #3b5627;
     box-shadow:  2px 2px 5px #959599;
 }
@@ -269,6 +272,7 @@
     .pinder.btn {
         width: 125px;
         margin-left: 100px;
+        margin-top: 10px;
         color: #3b5627;
         box-shadow:  2px 2px 5px #959599;
     }
@@ -404,6 +408,7 @@
     .pinder.btn {
         width: 100px;
         margin-left: 100px;
+        margin-top: 10px;
         color: #3b5627;
         box-shadow:  2px 2px 5px #959599;
     }
@@ -541,6 +546,7 @@
     .pinder.btn {
         width: 140px;
         margin: auto;
+        margin-top: 10px;
         margin-bottom: 15px;
         color: #3b5627;
         box-shadow:  2px 2px 5px #959599;
