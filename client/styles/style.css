@@ -51,14 +51,14 @@
 }
 .rotate-left {
     transform: rotate(30deg) scale(0.8);
-    transition: 1s;
+    transition: 1.25s;
     margin-left: 170px;
     cursor: e-resize;
     opacity: 0;
 }
 .rotate-right {
     transform: rotate(-30deg) scale(0.8);
-    transition: 1s;
+    transition: 1.25s;
     opacity: 0;
     margin-left: -170px;
     cursor: w-resize;
@@ -192,14 +192,14 @@
     /*}*/
     .rotate-left {
         transform: rotate(30deg) scale(0.8);
-        transition: 1s;
+        transition: 1.25s;
         margin-left: 150px;
         cursor: e-resize;
         opacity: 0;
     }
     .rotate-right {
         transform: rotate(-30deg) scale(0.8);
-        transition: 1s;
+        transition: 1.25s;
         opacity: 0;
         margin-left: -150px;
         cursor: w-resize;
@@ -327,14 +327,14 @@
     /*}*/
     .rotate-left {
         transform: rotate(30deg) scale(0.8);
-        transition: 1s;
+        transition: 1.25s;
         margin-left: 130px;
         cursor: e-resize;
         opacity: 0;
     }
     .rotate-right {
         transform: rotate(-30deg) scale(0.8);
-        transition: 1s;
+        transition: 1.25s;
         opacity: 0;
         margin-left: -130px;
         cursor: w-resize;
@@ -464,14 +464,14 @@
     /*}*/
     .rotate-left {
         transform: rotate(30deg) scale(0.8);
-        transition: 1s;
+        transition: 1.25s;
         margin-left: 130px;
         cursor: e-resize;
         opacity: 0;
     }
     .rotate-right {
         transform: rotate(-30deg) scale(0.8);
-        transition: 1s;
+        transition: 1.25s;
         opacity: 0;
         margin-left: -130px;
         cursor: w-resize;
@@ -549,7 +549,141 @@
 
 }
 
+/*MEDIA MEDIA MEDIA |||||||||||||||||||*/
+/*MEDIA MARKER FOR under 420*/
+/*MEDIA MEDIA MEDIA||||||||||||||||||||||||||||*/
+@media screen and (max-width: 420px) {
 
+    .logo {
+        display: block;
+        height: 90px;
+        width: auto;
+        margin-top: 5px;
+        margin-left: -15px;
+    }
+
+    #container {
+        max-width: 96%;
+        margin: auto;
+        position: relative;
+        display: block;
+        list-style-type: none;
+
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /*Class for everyphoto as they are all stacked on top of each other*/
+    .buddy {
+        display: none;
+        position: absolute;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        color: #fff;
+        padding: 20px;
+        width: 325px;
+        height: 325px;
+        left: 30px;
+        margin: auto;
+        cursor: hand;
+        box-shadow:  2px 2px 5px #959599;
+
+    }
+    /*.buddy:hover {*/
+    /*box-shadow:  4px 4px 9px #959599;*/
+
+    /*}*/
+    .rotate-left {
+        transform: rotate(30deg) scale(0.8);
+        transition: 1.25s;
+        margin-left: 130px;
+        cursor: e-resize;
+        opacity: 0;
+    }
+    .rotate-right {
+        transform: rotate(-30deg) scale(0.8);
+        transition: 1.25s;
+        opacity: 0;
+        margin-left: -130px;
+        cursor: w-resize;
+    }
+    .avatar {
+        background: #222;
+        width: 280px;
+        height: 280px;
+        display: block;
+        /*margin-top: 10px;*/
+        /*margin-left: 10px;*/
+        background-size: 100% auto !important;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /*These appear on image after swiped Like and Dislike*/
+    .like {
+        border-radius: 5px;
+        padding: 5px 10px;
+        border: 2px solid green;
+        color: green;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 1.8em;
+        position: absolute;
+        top: 50px;
+        right: 40px;
+        text-shadow: none;
+    }
+    .dislike {
+        border-radius: 5px;
+        padding: 5px 10px;
+        border: 2px solid red;
+        color: red;
+        font-weight: bold;
+
+        text-transform: uppercase;
+        font-size: 1.8em;
+        position: absolute;
+        top: 50px;
+        left: 40px;
+        text-shadow: none;
+    }
+
+
+    /*Social Media Buttons all*/
+    .share {
+        width: 35px;
+        padding: 5px;
+        border-radius: 50%;
+        box-shadow:  2px 2px 5px #959599;
+        display: inline;
+        margin: auto;
+        margin-top: 375px;
+    }
+
+    .facebookMargin  {
+        /*margin-left: 10px;*/
+    }
+
+    .share:hover {
+        box-shadow: 4px 4px 9px #959599;
+    }
+
+    /*Button to go back to RAC site*/
+    .pinder.btn {
+        width: 140px;
+        margin: auto;
+        margin-bottom: 15px;
+        color: #3b5627;
+        box-shadow:  2px 2px 5px #959599;
+    }
+
+
+}
 
 /*MEDIA MEDIA MEDIA |||||||||||||||||||*/
 /*MEDIA MARKER FOR under 380*/
@@ -603,14 +737,14 @@
     }
     .rotate-left {
         transform: rotate(30deg) scale(0.8);
-        transition: 1s;
+        transition: 1.25s;
         margin-left: 80px;
         cursor: e-resize;
         opacity: 0;
     }
     .rotate-right {
         transform: rotate(-30deg) scale(0.8);
-        transition: 1s;
+        transition: 1.25s;
         opacity: 0;
         margin-left: -80px;
         cursor: w-resize;
